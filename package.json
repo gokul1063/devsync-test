@@ -1,0 +1,15 @@
+{
+  "name": "devsync-test",
+  "version": "1.0.0",
+  "description": "Test project for DevSync",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "lodash": "^4.17.21"
+  }
+}
