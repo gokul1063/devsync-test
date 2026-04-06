@@ -1,0 +1,6 @@
+{
+  "autoUnseal": true,
+  "language": "node",
+  "projectName": "devsync-test",
+  "version": "0.1"
+}
