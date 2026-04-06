@@ -1,0 +1,20 @@
+{
+  "binaries": [
+    "/home/coder/node_modules/.bin/sh",
+    "/node_modules/.bin/sh",
+    "/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/sh",
+    "/usr/local/bin/sh",
+    "/home/coder/flutter/bin/node",
+    "/snap/bin/node",
+    "/home/coder/Program/node_modules/.bin/sh",
+    "/snap/bin/sh",
+    "/home/coder/.local/bin/sh",
+    "/usr/local/bin/npm",
+    "/home/coder/Program/devsync-test/node_modules/.bin/sh",
+    "/home/node_modules/.bin/sh",
+    "/home/coder/flutter/bin/sh",
+    "/usr/bin/sh",
+    "/home/coder/.local/bin/node",
+    "/usr/local/bin/node"
+  ]
+}
