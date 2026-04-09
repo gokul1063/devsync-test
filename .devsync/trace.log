@@ -1,58 +1,58 @@
-187338 execve("/usr/local/bin/npm", ["npm", "run", "dev"], 0x7ffccc508c90 /* 61 vars */) = 0
-187338 execve("/snap/bin/node", ["node", "/usr/local/bin/npm", "run", "dev"], 0x7ffe197b40d8 /* 61 vars */) = -1 ENOENT (No such file or directory)
-187338 execve("/home/coder/.local/bin/node", ["node", "/usr/local/bin/npm", "run", "dev"], 0x7ffe197b40d8 /* 61 vars */) = -1 ENOENT (No such file or directory)
-187338 execve("/home/coder/flutter/bin/node", ["node", "/usr/local/bin/npm", "run", "dev"], 0x7ffe197b40d8 /* 61 vars */) = -1 ENOENT (No such file or directory)
-187338 execve("/usr/local/bin/node", ["node", "/usr/local/bin/npm", "run", "dev"], 0x7ffe197b40d8 /* 61 vars */) = 0
-187353 execve("/home/coder/Program/devsync-test/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x1c5f2820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-187353 execve("/home/coder/Program/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x1c5f2820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-187353 execve("/home/coder/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x1c5f2820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-187353 execve("/home/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x1c5f2820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-187353 execve("/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x1c5f2820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-187353 execve("/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/sh", ["sh", "-c", "node --watch index.js"], 0x1c5f2820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-187353 execve("/snap/bin/sh", ["sh", "-c", "node --watch index.js"], 0x1c5f2820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-187353 execve("/home/coder/.local/bin/sh", ["sh", "-c", "node --watch index.js"], 0x1c5f2820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-187353 execve("/home/coder/flutter/bin/sh", ["sh", "-c", "node --watch index.js"], 0x1c5f2820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-187353 execve("/usr/local/bin/sh", ["sh", "-c", "node --watch index.js"], 0x1c5f2820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-187353 execve("/usr/bin/sh", ["sh", "-c", "node --watch index.js"], 0x1c5f2820 /* 84 vars */) = 0
-187354 execve("/usr/local/bin/node", ["node", "--watch", "index.js"], 0x561e83582458 /* 84 vars */) = 0
-187360 execve("/usr/local/bin/node", ["/usr/local/bin/node", "--heap-prof-interval=524288", "--cpu-prof-interval=1000", "--test-coverage-functions=0", "--test-concurrency=0", "--inspect-publish-uid=stderr,htt"..., "--inspect-port=127.0.0.1:9229", "--report-signal=SIGUSR2", "--test-coverage-lines=0", "--test-isolation=process", "--tls-cipher-list=TLS_AES_256_GC"..., "--v8-pool-size=4", "--trace-event-file-pattern=node_"..., "--secure-heap-min=2", "--watch-kill-signal=SIGTERM", "--node-snapshot", "--use-largepages=off", "--secure-heap=0", "--test-coverage-branches=0", "--max-http-header-size=16384", "--test-timeout=0", "--network-family-autoselection-a"..., "--stack-trace-limit=10", "--heapsnapshot-near-heap-limit=0", "index.js"], 0x2f1c09f0 /* 87 vars */) = 0
-187367 execve("/bin/sh", ["/bin/sh", "-c", "./tools/mytool.sh"], 0x3b3d09b0 /* 87 vars */) = 0
-187368 execve("./tools/mytool.sh", ["./tools/mytool.sh"], 0x560be830b4b8 /* 87 vars */) = 0
-187368 +++ exited with 0 +++
-187367 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=187368, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-187367 +++ exited with 0 +++
-187360 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=187367, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-187365 +++ exited with 0 +++
-187364 +++ exited with 0 +++
-187363 +++ exited with 0 +++
-187362 +++ exited with 0 +++
-187361 +++ exited with 0 +++
-187366 +++ exited with 0 +++
-187360 +++ exited with 0 +++
-187354 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=187360, si_uid=1000, si_status=0, si_utime=5 /* 0.05 s */, si_stime=1 /* 0.01 s */} ---
-187353 --- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
-187338 --- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
-187354 --- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
-187353 --- SIGINT {si_signo=SIGINT, si_code=SI_USER, si_pid=187338, si_uid=1000} ---
-187358 +++ exited with 0 +++
-187359 +++ exited with 0 +++
-187356 +++ exited with 0 +++
-187357 +++ exited with 0 +++
-187355 +++ exited with 0 +++
-187354 +++ exited with 0 +++
-187353 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=187354, si_uid=1000, si_status=0, si_utime=1 /* 0.01 s */, si_stime=1 /* 0.01 s */} ---
-187353 --- SIGINT {si_signo=SIGINT, si_code=SI_TKILL, si_pid=187353, si_uid=1000} ---
-187353 +++ killed by SIGINT +++
-187338 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_KILLED, si_pid=187353, si_uid=1000, si_status=SIGINT, si_utime=0, si_stime=0} ---
-187338 --- SIGINT {si_signo=SIGINT, si_code=SI_USER, si_pid=187338, si_uid=1000} ---
-187347 +++ killed by SIGINT +++
-187342 +++ killed by SIGINT +++
-187345 +++ killed by SIGINT +++
-187340 +++ killed by SIGINT +++
-187339 +++ killed by SIGINT +++
-187344 +++ killed by SIGINT +++
-187346 +++ killed by SIGINT +++
-187343 +++ killed by SIGINT +++
-187341 +++ killed by SIGINT +++
-187348 +++ killed by SIGINT +++
-187338 +++ killed by SIGINT +++
+6831  execve("/usr/local/bin/npm", ["npm", "run", "dev"], 0x7fff86c99610 /* 61 vars */) = 0
+6831  execve("/snap/bin/node", ["node", "/usr/local/bin/npm", "run", "dev"], 0x7fff09ebae38 /* 61 vars */) = -1 ENOENT (No such file or directory)
+6831  execve("/home/coder/.local/bin/node", ["node", "/usr/local/bin/npm", "run", "dev"], 0x7fff09ebae38 /* 61 vars */) = -1 ENOENT (No such file or directory)
+6831  execve("/home/coder/flutter/bin/node", ["node", "/usr/local/bin/npm", "run", "dev"], 0x7fff09ebae38 /* 61 vars */) = -1 ENOENT (No such file or directory)
+6831  execve("/usr/local/bin/node", ["node", "/usr/local/bin/npm", "run", "dev"], 0x7fff09ebae38 /* 61 vars */) = 0
+6842  execve("/home/coder/Program/devsync-test/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x43484820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+6842  execve("/home/coder/Program/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x43484820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+6842  execve("/home/coder/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x43484820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+6842  execve("/home/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x43484820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+6842  execve("/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x43484820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+6842  execve("/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/sh", ["sh", "-c", "node --watch index.js"], 0x43484820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+6842  execve("/snap/bin/sh", ["sh", "-c", "node --watch index.js"], 0x43484820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+6842  execve("/home/coder/.local/bin/sh", ["sh", "-c", "node --watch index.js"], 0x43484820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+6842  execve("/home/coder/flutter/bin/sh", ["sh", "-c", "node --watch index.js"], 0x43484820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+6842  execve("/usr/local/bin/sh", ["sh", "-c", "node --watch index.js"], 0x43484820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+6842  execve("/usr/bin/sh", ["sh", "-c", "node --watch index.js"], 0x43484820 /* 84 vars */) = 0
+6843  execve("/usr/local/bin/node", ["node", "--watch", "index.js"], 0x5616cf878458 /* 84 vars */) = 0
+6849  execve("/usr/local/bin/node", ["/usr/local/bin/node", "--heap-prof-interval=524288", "--cpu-prof-interval=1000", "--test-coverage-functions=0", "--test-concurrency=0", "--inspect-publish-uid=stderr,htt"..., "--inspect-port=127.0.0.1:9229", "--report-signal=SIGUSR2", "--test-coverage-lines=0", "--test-isolation=process", "--tls-cipher-list=TLS_AES_256_GC"..., "--v8-pool-size=4", "--trace-event-file-pattern=node_"..., "--secure-heap-min=2", "--watch-kill-signal=SIGTERM", "--node-snapshot", "--use-largepages=off", "--secure-heap=0", "--test-coverage-branches=0", "--max-http-header-size=16384", "--test-timeout=0", "--network-family-autoselection-a"..., "--stack-trace-limit=10", "--heapsnapshot-near-heap-limit=0", "index.js"], 0x15a2a9f0 /* 87 vars */) = 0
+6856  execve("/bin/sh", ["/bin/sh", "-c", "./tools/mytool.sh"], 0xe1d2e10 /* 87 vars */) = 0
+6857  execve("./tools/mytool.sh", ["./tools/mytool.sh"], 0x563892bb84b8 /* 87 vars */) = 0
+6857  +++ exited with 0 +++
+6856  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=6857, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+6856  +++ exited with 0 +++
+6849  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=6856, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+6853  +++ exited with 0 +++
+6854  +++ exited with 0 +++
+6852  +++ exited with 0 +++
+6850  +++ exited with 0 +++
+6851  +++ exited with 0 +++
+6855  +++ exited with 0 +++
+6849  +++ exited with 0 +++
+6843  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=6849, si_uid=1000, si_status=0, si_utime=10 /* 0.10 s */, si_stime=4 /* 0.04 s */} ---
+6831  --- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
+6843  --- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
+6842  --- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
+6842  --- SIGINT {si_signo=SIGINT, si_code=SI_USER, si_pid=6831, si_uid=1000} ---
+6848  +++ exited with 0 +++
+6846  +++ exited with 0 +++
+6845  +++ exited with 0 +++
+6847  +++ exited with 0 +++
+6844  +++ exited with 0 +++
+6843  +++ exited with 0 +++
+6842  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=6843, si_uid=1000, si_status=0, si_utime=4 /* 0.04 s */, si_stime=2 /* 0.02 s */} ---
+6842  --- SIGINT {si_signo=SIGINT, si_code=SI_TKILL, si_pid=6842, si_uid=1000} ---
+6842  +++ killed by SIGINT +++
+6831  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_KILLED, si_pid=6842, si_uid=1000, si_status=SIGINT, si_utime=0, si_stime=0} ---
+6831  --- SIGINT {si_signo=SIGINT, si_code=SI_USER, si_pid=6831, si_uid=1000} ---
+6841  +++ killed by SIGINT +++
+6840  +++ killed by SIGINT +++
+6839  +++ killed by SIGINT +++
+6838  +++ killed by SIGINT +++
+6837  +++ killed by SIGINT +++
+6834  +++ killed by SIGINT +++
+6833  +++ killed by SIGINT +++
+6836  +++ killed by SIGINT +++
+6832  +++ killed by SIGINT +++
+6835  +++ killed by SIGINT +++
+6831  +++ killed by SIGINT +++
