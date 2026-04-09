@@ -1,58 +1,58 @@
-3044  execve("/usr/local/bin/npm", ["npm", "run", "dev"], 0x7ffc6d2cd560 /* 61 vars */) = 0
-3044  execve("/snap/bin/node", ["node", "/usr/local/bin/npm", "run", "dev"], 0x7ffcbc15c308 /* 61 vars */) = -1 ENOENT (No such file or directory)
-3044  execve("/home/coder/.local/bin/node", ["node", "/usr/local/bin/npm", "run", "dev"], 0x7ffcbc15c308 /* 61 vars */) = -1 ENOENT (No such file or directory)
-3044  execve("/home/coder/flutter/bin/node", ["node", "/usr/local/bin/npm", "run", "dev"], 0x7ffcbc15c308 /* 61 vars */) = -1 ENOENT (No such file or directory)
-3044  execve("/usr/local/bin/node", ["node", "/usr/local/bin/npm", "run", "dev"], 0x7ffcbc15c308 /* 61 vars */) = 0
-3056  execve("/home/coder/Program/devsync-test/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x111fb820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-3056  execve("/home/coder/Program/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x111fb820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-3056  execve("/home/coder/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x111fb820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-3056  execve("/home/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x111fb820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-3056  execve("/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x111fb820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-3056  execve("/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/sh", ["sh", "-c", "node --watch index.js"], 0x111fb820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-3056  execve("/snap/bin/sh", ["sh", "-c", "node --watch index.js"], 0x111fb820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-3056  execve("/home/coder/.local/bin/sh", ["sh", "-c", "node --watch index.js"], 0x111fb820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-3056  execve("/home/coder/flutter/bin/sh", ["sh", "-c", "node --watch index.js"], 0x111fb820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-3056  execve("/usr/local/bin/sh", ["sh", "-c", "node --watch index.js"], 0x111fb820 /* 84 vars */) = -1 ENOENT (No such file or directory)
-3056  execve("/usr/bin/sh", ["sh", "-c", "node --watch index.js"], 0x111fb820 /* 84 vars */) = 0
-3060  execve("/usr/local/bin/node", ["node", "--watch", "index.js"], 0x556bda0ac458 /* 84 vars */) = 0
-3066  execve("/usr/local/bin/node", ["/usr/local/bin/node", "--heap-prof-interval=524288", "--cpu-prof-interval=1000", "--test-coverage-functions=0", "--test-concurrency=0", "--inspect-publish-uid=stderr,htt"..., "--inspect-port=127.0.0.1:9229", "--report-signal=SIGUSR2", "--test-coverage-lines=0", "--test-isolation=process", "--tls-cipher-list=TLS_AES_256_GC"..., "--v8-pool-size=4", "--trace-event-file-pattern=node_"..., "--secure-heap-min=2", "--watch-kill-signal=SIGTERM", "--node-snapshot", "--use-largepages=off", "--secure-heap=0", "--test-coverage-branches=0", "--max-http-header-size=16384", "--test-timeout=0", "--network-family-autoselection-a"..., "--stack-trace-limit=10", "--heapsnapshot-near-heap-limit=0", "index.js"], 0x3c3f79f0 /* 87 vars */) = 0
-3073  execve("/bin/sh", ["/bin/sh", "-c", "./tools/mytool.sh"], 0x16aec9b0 /* 87 vars */) = 0
-3074  execve("./tools/mytool.sh", ["./tools/mytool.sh"], 0x56214266c4b8 /* 87 vars */) = 0
-3074  +++ exited with 0 +++
-3073  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3074, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-3073  +++ exited with 0 +++
-3066  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3073, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-3071  +++ exited with 0 +++
-3068  +++ exited with 0 +++
-3070  +++ exited with 0 +++
-3069  +++ exited with 0 +++
-3067  +++ exited with 0 +++
-3072  +++ exited with 0 +++
-3066  +++ exited with 0 +++
-3060  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3066, si_uid=1000, si_status=0, si_utime=7 /* 0.07 s */, si_stime=0} ---
-3044  --- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
-3060  --- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
-3056  --- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
-3056  --- SIGINT {si_signo=SIGINT, si_code=SI_USER, si_pid=3044, si_uid=1000} ---
-3062  +++ exited with 0 +++
-3065  +++ exited with 0 +++
-3064  +++ exited with 0 +++
-3063  +++ exited with 0 +++
-3061  +++ exited with 0 +++
-3060  +++ exited with 0 +++
-3056  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3060, si_uid=1000, si_status=0, si_utime=3 /* 0.03 s */, si_stime=1 /* 0.01 s */} ---
-3056  --- SIGINT {si_signo=SIGINT, si_code=SI_TKILL, si_pid=3056, si_uid=1000} ---
-3056  +++ killed by SIGINT +++
-3044  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_KILLED, si_pid=3056, si_uid=1000, si_status=SIGINT, si_utime=0, si_stime=0} ---
-3044  --- SIGINT {si_signo=SIGINT, si_code=SI_USER, si_pid=3044, si_uid=1000} ---
-3053  +++ killed by SIGINT +++
-3052  +++ killed by SIGINT +++
-3050  +++ killed by SIGINT +++
-3051  +++ killed by SIGINT +++
-3048  +++ killed by SIGINT +++
-3047  +++ killed by SIGINT +++
-3054  +++ killed by SIGINT +++
-3049  +++ killed by SIGINT +++
-3046  +++ killed by SIGINT +++
-3045  +++ killed by SIGINT +++
-3044  +++ killed by SIGINT +++
+4189  execve("/usr/local/bin/npm", ["npm", "run", "dev"], 0x7ffe28f11c60 /* 61 vars */) = 0
+4189  execve("/snap/bin/node", ["node", "/usr/local/bin/npm", "run", "dev"], 0x7ffc15f89678 /* 61 vars */) = -1 ENOENT (No such file or directory)
+4189  execve("/home/coder/.local/bin/node", ["node", "/usr/local/bin/npm", "run", "dev"], 0x7ffc15f89678 /* 61 vars */) = -1 ENOENT (No such file or directory)
+4189  execve("/home/coder/flutter/bin/node", ["node", "/usr/local/bin/npm", "run", "dev"], 0x7ffc15f89678 /* 61 vars */) = -1 ENOENT (No such file or directory)
+4189  execve("/usr/local/bin/node", ["node", "/usr/local/bin/npm", "run", "dev"], 0x7ffc15f89678 /* 61 vars */) = 0
+4200  execve("/home/coder/Program/devsync-test/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x2fa88820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+4200  execve("/home/coder/Program/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x2fa88820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+4200  execve("/home/coder/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x2fa88820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+4200  execve("/home/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x2fa88820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+4200  execve("/node_modules/.bin/sh", ["sh", "-c", "node --watch index.js"], 0x2fa88820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+4200  execve("/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/sh", ["sh", "-c", "node --watch index.js"], 0x2fa88820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+4200  execve("/snap/bin/sh", ["sh", "-c", "node --watch index.js"], 0x2fa88820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+4200  execve("/home/coder/.local/bin/sh", ["sh", "-c", "node --watch index.js"], 0x2fa88820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+4200  execve("/home/coder/flutter/bin/sh", ["sh", "-c", "node --watch index.js"], 0x2fa88820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+4200  execve("/usr/local/bin/sh", ["sh", "-c", "node --watch index.js"], 0x2fa88820 /* 84 vars */) = -1 ENOENT (No such file or directory)
+4200  execve("/usr/bin/sh", ["sh", "-c", "node --watch index.js"], 0x2fa88820 /* 84 vars */) = 0
+4201  execve("/usr/local/bin/node", ["node", "--watch", "index.js"], 0x55f786ce1458 /* 84 vars */) = 0
+4207  execve("/usr/local/bin/node", ["/usr/local/bin/node", "--heap-prof-interval=524288", "--cpu-prof-interval=1000", "--test-coverage-functions=0", "--test-concurrency=0", "--inspect-publish-uid=stderr,htt"..., "--inspect-port=127.0.0.1:9229", "--report-signal=SIGUSR2", "--test-coverage-lines=0", "--test-isolation=process", "--tls-cipher-list=TLS_AES_256_GC"..., "--v8-pool-size=4", "--trace-event-file-pattern=node_"..., "--secure-heap-min=2", "--watch-kill-signal=SIGTERM", "--node-snapshot", "--use-largepages=off", "--secure-heap=0", "--test-coverage-branches=0", "--max-http-header-size=16384", "--test-timeout=0", "--network-family-autoselection-a"..., "--stack-trace-limit=10", "--heapsnapshot-near-heap-limit=0", "index.js"], 0x29de39f0 /* 87 vars */) = 0
+4214  execve("/bin/sh", ["/bin/sh", "-c", "./tools/mytool.sh"], 0x19d55e10 /* 85 vars */) = 0
+4215  execve("./tools/mytool.sh", ["./tools/mytool.sh"], 0x55affb365458 /* 85 vars */) = 0
+4215  +++ exited with 0 +++
+4214  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4215, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+4214  +++ exited with 0 +++
+4207  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4214, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+4211  +++ exited with 0 +++
+4210  +++ exited with 0 +++
+4209  +++ exited with 0 +++
+4212  +++ exited with 0 +++
+4208  +++ exited with 0 +++
+4213  +++ exited with 0 +++
+4207  +++ exited with 0 +++
+4201  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4207, si_uid=1000, si_status=0, si_utime=6 /* 0.06 s */, si_stime=0} ---
+4189  --- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
+4200  --- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
+4201  --- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
+4200  --- SIGINT {si_signo=SIGINT, si_code=SI_USER, si_pid=4189, si_uid=1000} ---
+4206  +++ exited with 0 +++
+4205  +++ exited with 0 +++
+4204  +++ exited with 0 +++
+4203  +++ exited with 0 +++
+4202  +++ exited with 0 +++
+4201  +++ exited with 0 +++
+4200  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4201, si_uid=1000, si_status=0, si_utime=3 /* 0.03 s */, si_stime=1 /* 0.01 s */} ---
+4200  --- SIGINT {si_signo=SIGINT, si_code=SI_TKILL, si_pid=4200, si_uid=1000} ---
+4200  +++ killed by SIGINT +++
+4189  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_KILLED, si_pid=4200, si_uid=1000, si_status=SIGINT, si_utime=0, si_stime=0} ---
+4189  --- SIGINT {si_signo=SIGINT, si_code=SI_USER, si_pid=4189, si_uid=1000} ---
+4199  +++ killed by SIGINT +++
+4198  +++ killed by SIGINT +++
+4197  +++ killed by SIGINT +++
+4196  +++ killed by SIGINT +++
+4195  +++ killed by SIGINT +++
+4194  +++ killed by SIGINT +++
+4193  +++ killed by SIGINT +++
+4192  +++ killed by SIGINT +++
+4191  +++ killed by SIGINT +++
+4190  +++ killed by SIGINT +++
+4189  +++ killed by SIGINT +++
